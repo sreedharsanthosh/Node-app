@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create New</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<section class="login-container">
+			<div class="login-heading">
+				<h1>New blog</h1>
+			</div>
+			<form action="/new" method="post">
+				<label id="nameLabel" for="username">Date: </label>
+					<input class="nameInput" type="number" name="date">
+				<label id="passwordLabel" for="password">Message: </label>
+				<input class="passwordInput" type="text" name="message">
+				<input type="file" name="image">
+			<button id="submitBtn" type="submit">Upload</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>

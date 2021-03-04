@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<section class="login-container">
+				<div class="login-heading">
+					<h1>Register</h1>
+				</div>
+				<form action="/register" method="post">
+					<label id="nameLabel" for="username">Username: </label>
+					<input class="nameInput" type="text" name="username">
+					<label id="passwordLabel" for="password">Password: </label>
+					<input class="passwordInput" type="password" name="password">
+					<button id="submitBtn" type="submit">Register</button>
+				</form>
+			</section>
+			<div class="register-body">
+				<h4>Already have an account?</h3>
+				<a href="/">Login</a>
+			</div>
+		</main>
+</body>
+</html>
